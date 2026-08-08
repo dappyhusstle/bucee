@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Buc-ee's Road Trip Haul - Claim Your $500</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    background:#ffffff;
+    color:#1a1a1a;
+    display:flex;
+    justify-content:center;
+  }
+  .wrap { width:100%; max-width:430px; min-height:100vh; background:#ffffff; }
+
+  .topbar {
+    display:flex; align-items:center; justify-content:center;
+    padding:14px 16px;
+    border-bottom:1px solid #f0e6d8;
+  }
+  .topbar .logo {
+    font-weight:800; font-size:20px; color:#B3181E; letter-spacing:0.5px;
+  }
+  .topbar .logo span { color:#E08A1E; }
+
+  .hero {
+    background: linear-gradient(180deg,#FFF6E9 0%, #ffffff 100%);
+    padding:22px 20px 18px;
+    text-align:center;
+  }
+  .hero-badge {
+    display:inline-block;
+    background:#B3181E;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    padding:5px 12px;
+    border-radius:20px;
+    margin-bottom:14px;
+    letter-spacing:0.3px;
+  }
+  .hero h1 {
+    font-size:24px;
+    line-height:1.25;
+    font-weight:800;
+    color:#1a1a1a;
+    margin-bottom:8px;
+  }
+  .hero h1 .amt { color:#B3181E; }
+  .hero p.sub {
+    font-size:14.5px;
+    color:#5a5a5a;
+    line-height:1.4;
+    max-width:340px;
+    margin:0 auto;
+  }
+
+  .step2-banner {
+    margin:18px 20px 0;
+    background:#FFF1D6;
+    border:1px solid #F1D9A6;
+    border-radius:10px;
+    padding:12px 14px;
+    text-align:center;
+  }
+  .step2-banner strong { color:#8A5A00; font-size:14px; }
+  .step2-banner span { display:block; font-size:12.5px; color:#8A5A00; margin-top:2px; opacity:0.85; }
+
+  .steps {
+    padding:20px 20px 6px;
+  }
+  .steps h2 {
+    font-size:15px;
+    font-weight:700;
+    color:#1a1a1a;
+    margin-bottom:12px;
+  }
+  .step-item {
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    padding:12px 0;
+    border-bottom:1px solid #f2ede4;
+  }
+  .step-item:last-child { border-bottom:none; }
+  .step-num {
+    flex-shrink:0;
+    width:26px; height:26px;
+    border-radius:50%;
+    background:#B3181E;
+    color:#fff;
+    font-size:13px;
+    font-weight:800;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .step-text { font-size:14.5px; color:#333; line-height:1.4; padding-top:2px; }
+  .step-text b { color:#1a1a1a; }
+
+  .cta-wrap { padding:18px 20px 6px; }
+  .cta-btn {
+    display:block;
+    width:100%;
+    text-align:center;
+    background:#B3181E;
+    color:#ffffff;
+    font-size:16.5px;
+    font-weight:800;
+    padding:15px 0;
+    border-radius:10px;
+    text-decoration:none;
+    letter-spacing:0.3px;
+  }
+  .cta-sub {
+    text-align:center;
+    font-size:11.5px;
+    color:#8a8a8a;
+    margin-top:8px;
+  }
+
+  .trust-row {
+    display:flex;
+    justify-content:space-between;
+    padding:16px 20px;
+    gap:8px;
+  }
+  .trust-item {
+    flex:1;
+    text-align:center;
+    font-size:11px;
+    color:#5a5a5a;
+    background:#FBF6EC;
+    border-radius:8px;
+    padding:10px 4px;
+  }
+  .trust-item b { display:block; font-size:13px; color:#1a1a1a; margin-bottom:2px; }
+
+  .faq {
+    padding:10px 20px 20px;
+  }
+  .faq h3 {
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:10px;
+    color:#1a1a1a;
+  }
+  .faq-item {
+    padding:12px 0;
+    border-bottom:1px solid #f2ede4;
+  }
+  .faq-item:last-child { border-bottom:none; }
+  .faq-item .q {
+    font-size:13.5px;
+    font-weight:700;
+    color:#1a1a1a;
+    margin-bottom:4px;
+  }
+  .faq-item .a {
+    font-size:13px;
+    color:#5a5a5a;
+    line-height:1.45;
+  }
+
+  .cta-wrap.second { padding-top:4px; padding-bottom:20px; }
+
+  footer {
+    padding:16px 20px 28px;
+    border-top:1px solid #f0e6d8;
+  }
+  footer p {
+    font-size:10.5px;
+    color:#9a9a9a;
+    line-height:1.5;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="logo">BUC-EE'S <span>REWARDS</span></div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-badge">STUDENT ROAD TRIP REWARD</div>
+    <h1>Claim Up To <span class="amt">$500</span> Towards Your Buc-ee's Road Trip Haul</h1>
+    <p class="sub">Snacks, gas, gear — put it toward your next stop. Takes about 2 minutes to check eligibility.</p>
+  </div>
+
+  <div class="step2-banner">
+    <strong>Step 2 of 2 — Almost There!</strong>
+    <span>Finish the steps below to unlock your reward</span>
+  </div>
+
+  <div class="steps">
+    <h2>How It Works</h2>
+    <div class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-text"><b>Click Claim Now</b> below to start your reward check</div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-text">Enter your <b>basic info</b> to confirm eligibility</div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-text">Complete <b>3 to 5 sponsored deals</b> to unlock your reward amount</div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">4</div>
+      <div class="step-text">Get your <b>Buc-ee's reward</b> — up to $500 towards your haul</div>
+    </div>
+  </div>
+
+  <div class="cta-wrap">
+    <a href="https://giftclick.org/aff_c?offer_id=2085&aff_id=23543&source=bruce" class="cta-btn">Claim My Reward Now</a>
+    <p class="cta-sub">No purchase necessary. Takes about 2 minutes.</p>
+  </div>
+
+  <div class="trust-row">
+    <div class="trust-item"><b>Free</b>To check</div>
+    <div class="trust-item"><b>~2 min</b>To complete</div>
+    <div class="trust-item"><b>Secure</b>Info protected</div>
+  </div>
+
+  <div class="faq">
+    <h3>Common Questions</h3>
+    <div class="faq-item">
+      <div class="q">Is this actually free?</div>
+      <div class="a">Yes — checking your eligibility costs nothing. You'll just need to complete a few quick sponsored offers to unlock the full reward amount.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q">How long does it take?</div>
+      <div class="a">Most people finish in under 5 minutes once they start the steps.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q">Do I need to be a student?</div>
+      <div class="a">This reward is open to anyone 18+. You do not need to be enrolled in school to qualify.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q">What can I use it on?</div>
+      <div class="a">Your reward can go towards snacks, drinks, gas, and gear on your next Buc-ee's stop.</div>
+    </div>
+  </div>
+
+  <div class="cta-wrap second">
+    <a href="https://giftclick.org/aff_c?offer_id=2085&aff_id=23543&source=bruce" class="cta-btn">Claim My Reward Now</a>
+  </div>
+
+  <footer>
+    <p>This site is not affiliated with, endorsed by, or sponsored by Buc-ee's Ltd. All trademarks are property of their respective owners. Offer requires completion of program requirements to receive full reward value. Availability may vary by region.</p>
+  </footer>
+
+</div>
+</body>
+</html>
